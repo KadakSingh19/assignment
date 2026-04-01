@@ -66,6 +66,7 @@ router.post("/login", async (req, res) => {
   }
 });
 
+
 router.get("/profile/:email", async (req, res) => {
   try {
     const { email } = req.params;
