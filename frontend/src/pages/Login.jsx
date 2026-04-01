@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const API_URL = '13.233.225.16:8080/api/auth`;
+const API_URL = '13.233.225.16:8080/api/auth'
 
 export default function Login() {
   const navigate = useNavigate();
